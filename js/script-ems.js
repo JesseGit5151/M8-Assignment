@@ -12,7 +12,7 @@
 
 
 // ADD EMPLOYEE
-form.addEventListener('submit', (e) => {
+// form.addEventListener('submit', (e) => {
     // PREVENT FORM SUBMISSION
 
     // GET THE VALUES FROM THE TEXT BOXES
@@ -27,10 +27,10 @@ form.addEventListener('submit', (e) => {
 
     // SET FOCUS BACK TO THE ID TEXT BOX
 
-});
+// });
 
 // DELETE EMPLOYEE
-empTable.addEventListener('click', (e) => {
+// empTable.addEventListener('click', (e) => {
     // CONFIRM THE DELETE
 
         // GET THE SELECTED ROWINDEX FOR THE TR (PARENTNODE.PARENTNODE)
@@ -39,7 +39,7 @@ empTable.addEventListener('click', (e) => {
 
         // BUILD THE GRID
 
-});
+// });
 
 // BUILD THE EMPLOYEES GRID
 function buildGrid() {
