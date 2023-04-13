@@ -105,8 +105,8 @@
 // }
 // console.log(randomPicker(numbers))
 //STEP 17
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 66, 77];
-let max = function(arr) {
-    return Math.max(...arr);
-}
-console.log(max(numbers))
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 66, 77];
+// let max = function(arr) {
+//     return Math.max(...arr);
+// }
+// console.log(max(numbers))

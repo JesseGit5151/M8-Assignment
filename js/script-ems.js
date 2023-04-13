@@ -1,6 +1,15 @@
+let form = document.querySelector('#addForm')
+let empTable = document.querySelector('#empTable')
+
 // CREATE AN ARRAY OF EMPLOYEES
-
-
+let employees = [
+    [1001, "John Doe", 1234, "johndoe@example.com", "Sales"],
+    [1002, "Jane Smith", 2345, "janesmith@example.com", "Marketing"],
+    [1003, "Bob Johnson", 3456, "bobjohnson@example.com", "Engineering"],
+    [1004, "Sarah Lee", 4567, "sarahlee@example.com", "HR"],
+    [1005, "Tom Wong", 5678, "tomwong@example.com", "IT"]
+  ];
+console.log(employees)
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
 // IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY
 
@@ -12,7 +21,7 @@
 
 
 // ADD EMPLOYEE
-// form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
     // PREVENT FORM SUBMISSION
 
     // GET THE VALUES FROM THE TEXT BOXES
@@ -27,10 +36,10 @@
 
     // SET FOCUS BACK TO THE ID TEXT BOX
 
-// });
+});
 
 // DELETE EMPLOYEE
-// empTable.addEventListener('click', (e) => {
+empTable.addEventListener('click', (e) => {
     // CONFIRM THE DELETE
 
         // GET THE SELECTED ROWINDEX FOR THE TR (PARENTNODE.PARENTNODE)
@@ -39,7 +48,7 @@
 
         // BUILD THE GRID
 
-// });
+});
 
 // BUILD THE EMPLOYEES GRID
 function buildGrid() {
